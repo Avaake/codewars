@@ -4,8 +4,3 @@ def factory(x):
             nums[num] = nums[num] * x
         return nums
     return multiply_by_number
-
-
-
-
-print(factory(3)([1, 2, 3]))
